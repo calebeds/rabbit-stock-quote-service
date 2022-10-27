@@ -14,7 +14,7 @@ import javax.annotation.PreDestroy;
 
 @Configuration
 public class RabbitConfig {
-    public static final String Queue = "quotes";
+    public static final String QUEUE = "quotes";
 
     @Autowired
     Mono<Connection> connectionMono;
